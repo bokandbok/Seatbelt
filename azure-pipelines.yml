@@ -8,8 +8,6 @@ trigger:
 
 pool: 
    name: local-agent
-   demands:
-    - agent.name -equals BOK
   #vmImage: 'windows-latest'
 
 variables:
