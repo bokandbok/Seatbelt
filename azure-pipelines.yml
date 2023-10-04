@@ -6,10 +6,10 @@
 trigger:
 - master
 
-pool:
-  name: local-Agent
-  demands:
-    - agent.name -equals Bok
+pool: 
+   name: local-agent
+   demands:
+    - agent.name -equals BOK
   #vmImage: 'windows-latest'
 
 variables:
