@@ -7,7 +7,7 @@ trigger:
 - master
 
 pool:
-  pool: Local-Agent
+  name: home-local-Agent
   #vmImage: 'windows-latest'
 
 variables:
