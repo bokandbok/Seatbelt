@@ -8,6 +8,7 @@ trigger:
 
 pool: 
    name: local-agent
+   Agent.SkipCertValidation: 1
   #vmImage: 'windows-latest'
 
 variables:
