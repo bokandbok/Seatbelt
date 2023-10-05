@@ -8,15 +8,13 @@ trigger:
 
 pool: 
    name: local-agent
-   Agent.SkipCertValidation: 1
   #vmImage: 'windows-latest'
 
 variables:
   solution: '**/*.sln'
   buildPlatform: 'Any CPU'
   buildConfiguration: 'Release'
-  GIT_SSL_NO_VERIFY: 1
-
+  
 steps:
 - task: NuGetToolInstaller@1
 
